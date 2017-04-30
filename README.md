@@ -1,5 +1,4 @@
-gcodesender.py
-==============
+# gcodesender.py
 
 Basic gcode sender in Python.
 
@@ -9,11 +8,11 @@ Features
 - programmatically sends gcode over a USB port
 - automagically strips out Slic3r comments and delivers only pure uncut gcode
 
-Help: ./gcodesender.py --help
+Help: `./gcodesender.py --help`
 
 Example usage:
 
-./gcodesender.py -p /dev/ttyACM0 -f /media/UNTITLED/shoulder.g
+`./gcodesender.py -p /dev/ttyACM0 -f /media/UNTITLED/shoulder.g`
 
 Code snippets and basic idea taken from:
 http://onehossshay.wordpress.com/2011/08/26/grbl-a-simple-python-interface/
